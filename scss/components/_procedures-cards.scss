@@ -1,0 +1,21 @@
+.procedures-card {
+  position: relative;
+  height: 456px;
+  border: 1px solid lightgrey;
+  border-radius: 120px 4px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(1, 28, 68, 0) 48.53%,
+    rgba(1, 28, 68, 0.73) 84.61%,
+    var(--color-primary-dark) 101.39%
+  );
+  transition: transform 0.2s;
+}
+
+.procedures-image {
+  border-radius: 120px 4px;
+}
+
+.procedures-card:hover {
+  transform: scale(1.05);
+}

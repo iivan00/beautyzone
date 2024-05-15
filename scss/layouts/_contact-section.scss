@@ -1,0 +1,29 @@
+.iframe {
+  display: flex;
+}
+
+.section-contact {
+  padding-bottom: 96px;
+}
+
+.contact-conteiner {
+  /* padding-top: 96px; */
+  display: flex;
+
+  gap: 32px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 32px;
+}
+
+.contact-section {
+  padding-top: 96px;
+  text-align: center;
+  margin: 0 auto 48px;
+}
+
+.contact-form-section {
+  background-color: var(--color-primary-dark);
+  max-width: 423px;
+  border-radius: 32px;
+}
